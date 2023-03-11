@@ -21,6 +21,10 @@
   box-shadow: 8px 8px 43px -17px rgba(66, 68, 90, 0.46);
   z-index: 1;
 }
+
+.qr__card:hover .qr-image__wrap {
+  transform: rotateY(180deg);
+}
 .qr-image__wrap {
   position: relative;
   background-color: var(--blue);
@@ -31,9 +35,6 @@
   padding: 60px;
   z-index: 10;
   transition: all 0.8s ease-in;
-}
-.qr-image__wrap:hover {
-  transform: rotateY(180deg);
 }
 .qr-image__wrap::after {
   position: absolute;
@@ -65,7 +66,7 @@
   transition-duration: 0.1s;
 }
 
-.qr-image__wrap:hover .gr-image {
+.qr__card:hover .gr-image {
   opacity: 100%;
   width: 145px;
   height: 145px;
@@ -78,7 +79,7 @@ h2.qr__title {
   transition-duration: 0.1s;
   color: var(--white);
 }
-.qr-image__wrap:hover h2.qr__title {
+.qr__card:hover h2.qr__title {
   opacity: 0;
   font-size: 0;
 }
