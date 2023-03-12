@@ -9,7 +9,7 @@
 .qr__card {
   overflow: hidden;
   display: grid;
-  grid-template-rows: 60% 40%;
+  grid-template-rows: 65% 40%;
   gap: 25px;
   border-radius: 1rem;
   padding: 15px;
@@ -62,7 +62,7 @@
   align-items: flex-start;
   overflow: hidden;
   position: relative;
-  min-height: 265px;
+  min-height: 285px;
   border-radius: 00.5rem;
 }
 .qr-image__wrap {
