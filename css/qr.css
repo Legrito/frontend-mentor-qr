@@ -63,7 +63,7 @@
   overflow: hidden;
   position: relative;
   min-height: 285px;
-  border-radius: 00.5rem;
+  border-radius: 0.5rem;
 }
 .qr-image__wrap {
   position: absolute;
